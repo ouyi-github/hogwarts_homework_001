@@ -1,0 +1,97 @@
+{
+  "uid" : "88cb1a74d178ceb4",
+  "name" : "test_add[float]",
+  "fullName" : "testcase.test_calculator.TestCal#test_add",
+  "historyId" : "7409e6d3d86bfea06856b8a658d5361d",
+  "time" : {
+    "start" : 1607866065154,
+    "stop" : 1607866065154,
+    "duration" : 0
+  },
+  "description" : "\n        testcase for Calculator.add\n        :param a:\n        :param b:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    testcase for Calculator.add\n    :param a:\n    :param b:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "satrt_calculator",
+    "time" : {
+      "start" : 1607866065063,
+      "stop" : 1607866065063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "satrt_calculator::0",
+    "time" : {
+      "start" : 1607866065250,
+      "stop" : 1607866065250,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7PKNCLF"
+  }, {
+    "name" : "thread",
+    "value" : "11448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "55.36"
+  }, {
+    "name" : "b",
+    "value" : "48.26"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "88cb1a74d178ceb4.json",
+  "parameterValues" : [ "55.36", "48.26" ]
+}

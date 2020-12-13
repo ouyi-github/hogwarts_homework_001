@@ -1,4 +1,8 @@
 # 过滤文件
+test_code.py
+test.log
 # 过虑文件夹
 .idea/
 venv/
+report/
+test_demo/

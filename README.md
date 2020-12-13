@@ -9,3 +9,12 @@
 存放待测试的python代码文件
 
 (1) calculator.py:计算器功能代码文件
+
+###4.allure-report文件夹
+存放allure测试报告
+
+###5.pytest.ini文件
+自定义pytest配置
+
+###6.conftest.py
+定义公共的fixture方法，或者测试用例的公共方法

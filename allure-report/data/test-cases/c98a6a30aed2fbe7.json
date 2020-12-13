@@ -1,0 +1,103 @@
+{
+  "uid" : "c98a6a30aed2fbe7",
+  "name" : "test_div[zero]",
+  "fullName" : "testcase.test_calculator.TestCal#test_div",
+  "historyId" : "fdd1b316e8e0425b5721d651b573676a",
+  "time" : {
+    "start" : 1607866065216,
+    "stop" : 1607866065216,
+    "duration" : 0
+  },
+  "description" : "\n        testcase for Calculator.div\n        :param a:\n        :param b:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    testcase for Calculator.div\n    :param a:\n    :param b:\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "ZeroDivisionError: division by zero",
+  "statusTrace" : "self = <testcase.test_calculator.TestCal object at 0x000002879E62BF60>, a = 0\nb = 0\nsatrt_calculator = <pythoncode.calculator.Calculator object at 0x000002879E62B2B0>\n\n    @pytest.mark.run(order=4)\n    @pytest.mark.parametrize('a,b', data,\n                             ids=['positive_integer', 'negative_integer', 'zero', 'super_positive_integer',\n                                  'supernegative_integer',\n                                  'float'])\n    def test_div(self,a,b,satrt_calculator):\n        \"\"\"\n        testcase for Calculator.div\n        :param a:\n        :param b:\n        :return:\n        \"\"\"\n>       assert satrt_calculator.div(a,b) == a / b\n\ntest_calculator.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pythoncode.calculator.Calculator object at 0x000002879E62B2B0>, a = 0\nb = 0\n\n    def div(self, a, b):\n>       return a / b\nE       ZeroDivisionError: division by zero\n\n..\\pythoncode\\calculator.py:12: ZeroDivisionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "satrt_calculator",
+    "time" : {
+      "start" : 1607866065063,
+      "stop" : 1607866065063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "satrt_calculator::0",
+    "time" : {
+      "start" : 1607866065250,
+      "stop" : 1607866065250,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7PKNCLF"
+  }, {
+    "name" : "thread",
+    "value" : "11448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "c98a6a30aed2fbe7.json",
+  "parameterValues" : [ "0", "0" ]
+}
