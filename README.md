@@ -5,6 +5,10 @@
 存放测试用例代码文件
 
 （1）test_calculator.py:代码calculator.py的测试用例代码文件
+
+（2）test_cookie_Wework.py：企业微信登录第一次作业，用例代码
+
+（3）cookie.yaml：序列化保存cookie内容的文件
 ###3.pythoncode文件夹
 存放待测试的python代码文件
 
